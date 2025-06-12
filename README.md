@@ -23,6 +23,11 @@ Covid-19 caused a massive upheavel in the society and affected numerous people.T
 I chose this data because it is very comprehensive,covers data pertaining to incidence of influenza across counties on a weekly and yearly basis, provides classification according to influenza type A or B or mention of other category of respiratory illness when tested for influenza. Data in the other data file can also help in estimating the seriousness of the incident lung infections .I believe this can facilitate in depth anaylsis to yield several informative insights.It can help to better understand the disease spread,identify trends,determine the contagious type of virus and fatality of respiratory illness across the age groups etc.
 This type information can help public health organizations track the disease,understand trends in virus and impact and take effective action to control the spread. It can help in administering vaccines,develop more effective flu shots, forecast future spread and take preventive measures.It can also help healthcare providers in better decision-making.
 
+### Data sources
+The datasets for the project have been chosen from WHO(World Health Organization). The World Health Organization is a specialized agency of the United Nations responsible for international public health. The Global Influenza Programme of WHO provides a global platform for influenza surveillance information reporting, analysis and presentation. The dataset is shared through FluNet and FluID by the Global Influenza Surveillance and Response System (GISRS) and national epidemiological institutions. The count for influenza for various virus types and other ILI types is recorded respectively country wise and on a weekly basis The FluNet and FluID csv data files have been used in this project.The link is:
+
+https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs
+
 ## License
 
 This project is licensed under **All Rights Reserved**. All rights to the code, documentation, and any related content are retained by the author. No part of this project may be reproduced, distributed, or modified without explicit permission.
