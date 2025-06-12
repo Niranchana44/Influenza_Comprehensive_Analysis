@@ -32,8 +32,7 @@ https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring
 ### Disclaimer
 This is an entirely independent and original project conducted using publicly available data from the World Health Organization’s Global Influenza Surveillance platforms—FluNet and FluID. All data preprocessing, analysis, visualizations, and documentation were solely performed and written by me.
 This project was not replicated from any existing source and reflects my own exploration, interpretation, and findings.
-This is an entirely independent and original project conducted using publicly available data from the World Health Organization’s Global Influenza Surveillance platform (FluNet and FluID). All data preprocessing, analysis, insights, and documentation were performed and written by me. 
-This project was not replicated from any existing source and reflects my own exploration and findings.
+
 
 ### License
 This project is licensed under **All Rights Reserved**. All rights to the code, documentation, and any related content are retained by the author. No part of this project may be reproduced, distributed, or modified without explicit permission.
