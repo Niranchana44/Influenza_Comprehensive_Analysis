@@ -40,7 +40,7 @@ https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring
 - Country-Level Impact: Besides the US, China also consistently reported high numbers of cases, indicating the need to examine country-specific drivers behind repeated influenza outbreaks.
 - Analysis of pie charts reveals that Influenza Type A is the more contagious and dominant virus type in the U.S.
 
--The contribution of Type A cases has increased significantly from 2020 to 2022.
+- The contribution of Type A cases has increased significantly from 2020 to 2022.
 
 - Within Type A, A_OTHER (unsubtyped virus) consistently showed the highest contribution, both in the U.S. and globally.
 
