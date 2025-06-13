@@ -28,6 +28,22 @@ The datasets for the project have been chosen from WHO(World Health Organization
 
 https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs
 
+### Some key insights from analysis
+- America as Major Contributor: The American region consistently reported the highest number of influenza-positive cases across years, except in 2010 and 2011, with the United States being the primary contributor, often along with Canada.
+
+- Increase in Influenza Spread: There has been a general increase in influenza cases over the past decade, with regions like Europe and the Western Pacific also showing a rise in recent years.
+
+- Seasonality and Distribution: The data reveals a seasonal pattern—most influenza cases occur during winter months (especially December to January), and weekly trends show peaks in the first 10 weeks and last 5 weeks of the year.
+
+- 2022 as an Outlier Year: The year 2022 showed unusual patterns with an earlier peak and a longer duration of reported cases in countries like the US, Canada, and China, prompting investigation into virus types and trends for 2023.
+
+- Country-Level Impact: Besides the US, China also consistently reported high numbers of cases, indicating the need to examine country-specific drivers behind repeated influenza outbreaks.
+- Analysis of pie charts reveals that Influenza Type A is the more contagious and dominant virus type in the U.S.
+
+-The contribution of Type A cases has increased significantly from 2020 to 2022.
+
+- Within Type A, A_OTHER (unsubtyped virus) consistently showed the highest contribution, both in the U.S. and globally.
+
 
 ### Disclaimer
 This is an entirely independent and original project conducted using publicly available data from the World Health Organization’s Global Influenza Surveillance platforms—FluNet and FluID. All data preprocessing, analysis, visualizations, and documentation were solely performed and written by me.
