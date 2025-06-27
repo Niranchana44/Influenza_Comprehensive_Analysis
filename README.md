@@ -29,7 +29,7 @@ The datasets for the project have been chosen from WHO(World Health Organization
 https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs
 
 ### Some key insights from analysis
-- America as Major Contributor: The American region consistently reported the highest number of influenza-positive cases across years, except in 2010 and 2011, with the United States being the primary contributor, often along with Canada.
+- America -majorly affected region : The American region consistently reported the highest number of influenza-positive cases across years, except in 2010 and 2011, with the United States being the primary contributor to the cases, often along with Canada.
 
 - Increase in Influenza Spread: There has been a general increase in influenza cases over the past decade, with regions like Europe and the Western Pacific also showing a rise in recent years.
 
