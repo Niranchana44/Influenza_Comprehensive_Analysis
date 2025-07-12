@@ -44,6 +44,7 @@ https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring
 
 - Within Type A, A_OTHER (unsubtyped virus) consistently showed the highest contribution, both in the U.S. and globally.
 
+- More detailed analysis is provided in the code with markdown
 
 
 ### License
