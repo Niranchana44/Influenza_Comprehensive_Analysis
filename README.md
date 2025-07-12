@@ -46,7 +46,8 @@ https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring
 
 - More detailed analysis is provided in the code with markdown
 
-
+### Disclaimer
+This is a completely original project. All code, analysis, and documentation were independently created by the author and have not been adapted from other public repositories or sources.
 ### License
 This project is licensed under **All Rights Reserved**. All rights to the code, documentation, and any related content are retained by the author. No part of this project may be reproduced, distributed, or modified without explicit permission.
 
