@@ -1,53 +1,47 @@
-### Overview of the project and the goals
+# Exploratory Data Analysis of Influenza and Influenza-Like Illness (ILI) Data
 
-The project deals with performing exploratory data analysis on the Influenza dataset obtained from WHO.This information can help in understanding the trends in the disease to better track and handle the influenza spread. Influenza dataset provides the count of the cases tested positive for influenza across regions and countries. The virus type for the recorded cases have also been specified. Additionally, the accompanying FLUID dataset also provides information about influenza-like-illness cases,their seriousness and fatalities.
+## Project Overview
+This project performs exploratory data analysis (EDA) on the Influenza dataset obtained from the World Health Organization (WHO). The goal is to understand trends in influenza spread across regions and countries, identify the most contagious virus types, and examine associated fatalities.
 
+The dataset includes counts of influenza-positive cases, categorized by virus type, and the accompanying FLUID dataset provides information on influenza-like-illness (ILI) cases, their seriousness, and fatalities.
 
-Analyzed WHO influenza and Influenza-like Illness (ILI) data, focusing on region-wise and country-wise trends in recent years. The analysis involved cleaning and pre-processing the data (handling missing values, duplicates, and inconsistencies), understanding global trends, and examining regional distributions across WHO's 6 regions. Explored yearly and seasonal trends in select countries, identified the most contagious virus strains, and tracked changes over two decades. The analysis also examined the relationship between ILI, Acute Respiratory Illness (ARI), Seriously Acute Respiratory Illness (SARI), and fatalities, with a focus on age-group-related mortality trends.
+The analysis explores:
+- Regional and country-level trends across WHO’s six regions.
+- Seasonal and yearly trends in selected countries.
+- Relationships between ILI, Acute Respiratory Illness (ARI), Seriously Acute Respiratory Illness (SARI), and fatalities, with emphasis on age-group-specific mortality.
 
-### Goals related to the analysis plans:-
-- The analysis is focussed on areas with highest values of reported count of influenza and Influenza-like illness region-wise and country-wise in the recent years.
-- Perform EDA by removing missing and inconsistent values,removing duplicate rows,unwanted rows and columns.I may group together suitable columns,change data type /column name to make it more appropriate and perform other required pre-processing.
-- Understand the worldwide trend of total influenza cases.I would liked to determine the region wise(WHO has 6 regions) distribution of influenza cases and also find out countries with the - highest count of influenza cases in the recent years.
-- Understand the recent yearly and seasonal trends in the selected countries.
-- Understand the more contagious virus-type and virus trends in influenza and influenza-like illness across the countries.
-- Explore the trends in influenza in the past two decades and identify changes.
-- Perform analysis based on total influenza like illness (ILI) cases reported,cases of Acute Respiratory Illness (ARI)and Seriously Acute Respiratory Illness ( SARI) and percentage deaths. I would like to understand the trends and also see if any relationship between age-groups and fatalities is visible in these areas.
-- I believe, this analysis could possibly also help in developing a time-series forecast model as a future scope.
+### Analysis Goals
+- Identify regions and countries with the highest counts of influenza and ILI in recent years.
+- Perform EDA by removing missing and inconsistent values, duplicate rows/columns, and irrelevant data; group or rename columns as needed for clarity.
+- Understand global influenza trends and region-wise distributions.
+- Examine yearly and seasonal trends in selected countries.
+- Determine the most contagious virus types and analyze trends across influenza and ILI cases.
+- Explore long-term changes in influenza spread over the past two decades.
+- Analyze relationships between ILI, ARI, SARI, percentage deaths, and age groups.
+- Provide insights for potential time-series forecasting of influenza cases.
 
-#### Why I chose this project
+### Motivation
+Respiratory illnesses, including influenza, affect a significant portion of the global population and can range from mild to deadly. Inspired by the impact of COVID-19 and my interest in applying data science and AI to public health, this project aims to:
+- Track and analyze influenza incidence worldwide.
+- Understand disease spread and trends in virus types.
+- Assess severity and fatalities across age groups.
+- Provide actionable insights for public health organizations, including vaccine administration, flu shot improvements, and preventive strategies.
 
-I am very interested in the application of data science and artificial intelligence to transform different industries.
-Covid-19 caused a massive upheavel in the society and affected numerous people.There are other respiratory illnesses that affect significant proportion of population around the world.Influenza is a common illness that cause mild to severe symptoms and could also be deadly. I feel better understanding and tracking incidence of the illness can help in better managing them.
+### Data Sources
+The datasets are obtained from the **World Health Organization (WHO)**:
+- **FluNet and FluID**: CSV datasets provided by the Global Influenza Surveillance and Response System (GISRS) and national epidemiological institutions.
+- Weekly counts of influenza cases by virus type and ILI cases by severity.
+- Link: [WHO Global Influenza Programme Surveillance Outputs](https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs)
 
-I chose this data because it is very comprehensive,covers data pertaining to incidence of influenza across counties on a weekly and yearly basis, provides classification according to influenza type A or B or mention of other category of respiratory illness when tested for influenza. Data in the other data file can also help in estimating the seriousness of the incident lung infections .I believe this can facilitate in depth anaylsis to yield several informative insights.It can help to better understand the disease spread,identify trends,determine the contagious type of virus and fatality of respiratory illness across the age groups etc.
-This type information can help public health organizations track the disease,understand trends in virus and impact and take effective action to control the spread. It can help in administering vaccines,develop more effective flu shots, forecast future spread and take preventive measures.It can also help healthcare providers in better decision-making.
-
-### Data sources
-The datasets for the project have been chosen from WHO(World Health Organization). The World Health Organization is a specialized agency of the United Nations responsible for international public health. The Global Influenza Programme of WHO provides a global platform for influenza surveillance information reporting, analysis and presentation. The dataset is shared through FluNet and FluID by the Global Influenza Surveillance and Response System (GISRS) and national epidemiological institutions. The count for influenza for various virus types and other ILI types is recorded respectively country wise and on a weekly basis The FluNet and FluID csv data files have been used in this project.The link is:
-
-https://www.who.int/teams/global-influenza-programme/surveillance-and-monitoring/influenza-surveillance-outputs
-
-### Some key insights from analysis
-- America -majorly affected region : The American region consistently reported the highest number of influenza-positive cases across years, except in 2010 and 2011, with the United States being the primary contributor to the cases, often along with Canada.
-
-- Increase in Influenza Spread: There has been a general increase in influenza cases over the past decade, with regions like Europe and the Western Pacific also showing a rise in recent years.
-
-- Seasonality and Distribution: The data reveals a seasonal pattern—most influenza cases occur during winter months (especially December to January), and weekly trends show peaks in the first 10 weeks and last 5 weeks of the year.
-
-- 2022 as an Outlier Year: The year 2022 showed unusual patterns with an earlier peak and a longer duration of reported cases in countries like the US, Canada, and China, prompting investigation into virus types and trends for 2023.
-
-- Country-Level Impact: Besides the US, China also consistently reported high numbers of cases, indicating the need to examine country-specific drivers behind repeated influenza outbreaks.
-- Analysis of pie charts reveals that Influenza Type A is the more contagious and dominant virus type in the U.S.
-
-- The contribution of Type A cases has increased significantly from 2020 to 2022.
-
-- Within Type A, A_OTHER (unsubtyped virus) consistently showed the highest contribution, both in the U.S. and globally.
-
-- More detailed analysis is provided in the code with markdown
-
+### Key Insights
+- **Region-Wise Impact**: The Americas consistently reported the highest influenza cases across years (except 2010–2011), with the US and Canada as major contributors.
+- **Increasing Spread**: Europe and the Western Pacific regions have shown rising influenza cases in recent years.
+- **Seasonality**: Influenza cases peak during winter months (December–January) and in the first 10 weeks and last 5 weeks of each year.
+- **2022 Outlier**: Earlier peak and longer duration of cases in the US, Canada, and China prompted further investigation.
+- **Country-Level Trends**: The US and China consistently report high case numbers, indicating country-specific drivers behind repeated outbreaks.
+- **Virus-Type Analysis**: Type A influenza is more contagious and dominant, with A_OTHER (unsubtyped virus) contributing the most globally and in the US. Contribution of Type A cases increased significantly from 2020 to 2022.
 
 ### License
-This project is licensed under **All Rights Reserved**. All rights to the code, documentation, and any related content are retained by the author. No part of this project may be reproduced, distributed, or modified without explicit permission.
+This project is licensed under **All Rights Reserved**. All rights to the code, documentation, and related content are retained by the author. No part of this project may be reproduced, distributed, or modified without explicit permission.
 
-For permissions or inquiries, please contact niranchanar.07@gmail.com.
+For permissions or inquiries, contact: **niranchanar.07@gmail.com**
