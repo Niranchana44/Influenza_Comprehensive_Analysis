@@ -41,6 +41,11 @@ The datasets are obtained from the **World Health Organization (WHO)**:
 - **Country-Level Trends**: The US and China consistently report high case numbers, indicating country-specific drivers behind repeated outbreaks.
 - **Virus-Type Analysis**: Type A influenza is more contagious and dominant, with A_OTHER (unsubtyped virus) contributing the most globally and in the US. Contribution of Type A cases increased significantly from 2020 to 2022.
 
+
+### Disclaimer
+This is an independent and purely original project, including the definition of goals, analysis plans, and insights. All work — from problem formulation to exploratory analysis and interpretation — was entirely self-conceived and executed by the author.
+
+
 ### License
 This project is licensed under **All Rights Reserved**. All rights to the code, documentation, and related content are retained by the author. No part of this project may be reproduced, distributed, or modified without explicit permission.
 
