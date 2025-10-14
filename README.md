@@ -21,7 +21,7 @@ The analysis explores:
 - Provide insights for potential time-series forecasting of influenza cases.
 
 ### Motivation
-Respiratory illnesses, including influenza, affect a significant portion of the global population and can range from mild to deadly. Inspired by the impact of COVID-19 and my interest in applying data science and AI to public health, this project aims to:
+Respiratory illnesses, including influenza, affect a significant portion of the global population and can range from mild to deadly. Due to the challenging impact of COVID-19 , my interest in applying data science and AI to public health grew and this project aims to:
 - Track and analyze influenza incidence worldwide.
 - Understand disease spread and trends in virus types.
 - Assess severity and fatalities across age groups.
@@ -43,7 +43,7 @@ The datasets are obtained from the **World Health Organization (WHO)**:
 
 
 ### Disclaimer
-This is an independent and purely original project, including the definition of goals, analysis plans, and insights. All work — from problem formulation to exploratory analysis and interpretation — was entirely self-conceived and executed by the author.
+This is a completely original project including the definition of goals, analysis plans, and insights. All work  from problem formulation to exploratory analysis and interpretation  was entirely self-conceived and executed by the author.
 
 
 ### License
