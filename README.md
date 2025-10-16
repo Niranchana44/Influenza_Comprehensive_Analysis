@@ -43,7 +43,7 @@ The datasets are obtained from the **World Health Organization (WHO)**:
 
 ### Key challenges
 
-** The datasets were messy and inconsistent, making cleaning time-consuming. Age-wise analysis of ILI fatalities was not possible due to missing age data. Merging FLUID and FLUNET was difficult because of mismatched dates and repeated counts, leading to many NaN values. Also, many recent cases were labeled as untyped “virus type-A other,” reducing precision.**
+- **The datasets were messy and inconsistent, making cleaning time-consuming. Age-wise analysis of ILI fatalities was not possible due to missing age data. Merging FLUID and FLUNET was difficult because of mismatched dates and repeated counts, leading to many NaN values. Also, many recent cases were labeled as untyped “virus type-A other,” reducing precision.**
 
 
 ### Disclaimer
