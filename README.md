@@ -47,8 +47,7 @@ The datasets are obtained from the **World Health Organization (WHO)**:
 
 
 ### Disclaimer
-All work  from problem formulation to exploratory analysis and interpretation  was entirely self-conceived and executed by the author.
-
+All work  from problem formulation to exploratory analysis and interpretation  was entirely self-conceived and executed by the author without adapting from any pre-exisitng sources.
 
 ### License
 This project is licensed under **All Rights Reserved**. All rights to the code, documentation, and related content are retained by the author. No part of this project may be reproduced, distributed, or modified without explicit permission.
